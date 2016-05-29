@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Formulaire oscaro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="Assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="oscaro.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-xs-12"><h1>IDENTIFIEZ VOTRE VEHICULE</h1>
+                    <h2>afin de trouver la liste des pièces compatibles</h2></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-xs-5 form_immat">PAR IMMATRICULATION ? <br>Indiquez votre numéro de plaque d'immatriculation
+                    <form class="form control" role="form">
+                        <div class="form-group">
+                                <input type="text" class="form control" id="immatriculation" placeholder="Ex : AA-111-AA">
+                            <button type="submit" class="btn btn-default">OK</button>
+                            Ex : AA-111-AA, AA-456-BB, 558QFM7
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-lg-3 col-xs-6 vehicule">PAR VEHICULE ? <br>Définissez votre véhicule
+                    <form role="form">
+                        <div class="form-group">
+                                <input type="text" class="form control" id="marque" placeholder="choisissez une marque">
+                                <br><input type="text" class="form control" id="modele" placeholder="choisissez un modèle">
+                                <button type="submit" class="btn btn-default">OK</button><br>
+                                <input type="text" class="form control" id="type" placeholder="choisissez un type">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-3 col-xs-6 cartegrise">PAR CARTE GRISE ?<br>Indiquez le type mine de votre véhicule
+                    <form role="form">
+                        <div class="form group"><input type="text" class="form control" id="MIN" placeholder="Ex : 1CNFY2">
+                                <div class="form group">
+                                   <input type="text" class="form control" id="ref" placeholder="--Précisez votre véhicule--">
+                                   <button type="submit" class="btn btn-default">OK</button></div>
+                        </div>
+                    </form>
+                </div>
+          
+                    <div class="form1">Un devis personnalisé ?<br>Contactez nos experts !
+                        <a href="#" class="button"><p>Demande de devis</p></a>
+                        </div>
+                      
+                <div class="form2">Vous connaissez la référence de votre pièce<br> 
+                    <div class="form group">
+                    <input type="text" class="form control" placeholder="Ex : PE-LS-1573">
+                    <button type="submit" class="btn btn-default">OK</button><br>  
+                    </div>
+                </div>
+        </div>
+    </body>
+</html>
